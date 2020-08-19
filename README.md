@@ -5,6 +5,8 @@ In this game, the protagonist’s grandfather is on his deathbed and has reveale
 filled with treasure. However, the vault requires four keys to open, which the protagonist
 must obtain by defeating the four bandits who’ve stolen them.
 
+To play, run the executable file 'final' in a terminal window. Alternatively, use 'make final' to recompile the source code.
+
 ### Game Overview:
 The game is played on a board with 36 spaces, arranged 6x6. The player moves around the
 board and can move from their current space to any adjacent space, whether diagonally,

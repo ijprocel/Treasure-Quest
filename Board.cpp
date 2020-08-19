@@ -33,7 +33,7 @@ Board::Board(){
     int spaces = std::count(map.begin(), map.end(), '.');
 
     string to_permute = "x!OO";
-    for (int index = 0; index < 10; index++){
+    for (int index = 0; index < 9; index++){
         to_permute += 'e';
     }
     while (to_permute.length() < spaces){

@@ -33,11 +33,11 @@ int main(){
 
         //Get the player's starting location and display the player's strength
         Space* current_space = game_board.getPlayerStart();
-        cout << "Player strength: " << player.strength() << "\n";
 
         do {
             cout << "---------------------------------------------------------------------------------------\n"
-            "Player Keys: " << player.keys() << endl;
+            << "Player strength: " << player.strength() << "\n"
+            <<"Player Keys: " << player.keys() << "\n" << endl;
             game_board.showBoard();
 
             char move = getMove(key_list, NUM_CONTROLS);

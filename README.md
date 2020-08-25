@@ -13,7 +13,7 @@ board and can move from their current space to any adjacent space, whether diago
 vertically, or horizontally adjacent (a non-edge space will have 8 adjacent spaces). The
 board is written to the terminal after each turn, with each space represented by a single
 character.
-There are 5 different types of spaces:
+There are 5 different types of spaces, each of which is a derived subclass of a master **Space** clas:
 * **Mountains** – The only type of space that the player cannot occupy. They’re just there
 as obstacles. They are represented by the character ‘A’ when the board is written to
 the terminal. There are 8-10 on the board.
